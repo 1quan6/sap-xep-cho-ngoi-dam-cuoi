@@ -2,8 +2,7 @@ import random
 import numpy as np
 
 # Danh sách khách mời và điểm thân thiết
-khach_moi = ["Vợ", "Chồng", "ng yêu", "Anh", "Chị", "Em ruột", "Cha", "Mẹ", "Con cái",
-            "Anh họ", "Chị họ", "Em họ","Gì", "Bác","Cháu","Bạn bè","Không quen biết"]
+khach_moi = ["Vợ", "Chồng", "ng yêu", "Anh", "Chị", "Em ruột", "Cha", "Mẹ", "Con cái", "Anh họ", "Chị họ", "Em họ","Gì", "Bác","Cháu","Bạn bè","Không quen biết"]
 ma_tran_than_thiet = {
     ("Vợ", "Chồng", "ng yêu"): 2000, ("Anh", "Chị", "Em ruột"): 900, ("Cha", "Mẹ", "Con cái"): 700,
     ("Anh họ", "Chị họ", "Em họ"): 500, ("Gì", "Bác","Cháu"): 300, ("Bạn bè",): 100, ("Không quen biết",): 0,
